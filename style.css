@@ -1,0 +1,105 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3px;
+    height: 74vh;
+    width: 40vw;
+    margin: 10px auto;
+}
+
+.box{
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.7rem;
+
+}
+
+h1{
+    text-align: center;
+}
+.strip{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    display: inline;
+    background-color: black;
+    color: white;
+    padding: 3px 5px;
+    border-radius: 5px;
+    margin: auto 2px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#winner{
+    text-align: center;
+    height: 20px;
+    width: 200px;
+    font-weight: bold;
+    /* border: 2px solid red; */
+}
+/* @media only screen and (max-width: 1500px){
+    .container{
+        width: 76vw;
+    }
+} */
+
+@media only screen and (max-width: 900px){
+    .container{
+        width: 90vw;
+    }
+
+    .btn{
+        display: inline;
+        background-color: black;
+        color: white;
+        padding: 3px 5px;
+        border-radius: 5px;
+        margin: auto 2px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .container{
+        width: 95vw;
+        height: 50vh;
+    }
+
+    .box{
+        background-color: black;
+        border-radius: 5px;
+        color: white;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        font-size: 1.3rem;
+    
+    }
+
+    #winner{
+        text-align: center;
+        height: 20px;
+        width: 150px;
+        /* font-weight: bold; */
+        /* border: 2px solid red; */
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .container{
+        width: 95vw;
+        height: 40vh;
+        margin: 30px auto;
+    }
+}
